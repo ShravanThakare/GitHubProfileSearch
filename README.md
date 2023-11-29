@@ -9,7 +9,7 @@ Welcome to GitHub Profile Search! This web application allows users to search fo
 
 ## Demo
 
-Include a link to a live demo of your project if available.
+https://shravanthakaregithubprofilesearch.netlify.app/
 
 ## Technologies Used
 

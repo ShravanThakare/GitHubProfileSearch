@@ -24,7 +24,7 @@ Include a link to a live demo of your project if available.
 
 ## Screenshots
 
-Include screenshots of your project in this section to give users a visual understanding.
+![shravangithubprojectss](https://github.com/ShravanThakare/GitHubProfileSearch/assets/108409480/085e2a84-aeae-4cb7-872a-6f28e811585f)
 
 ## Future Plans
 

@@ -118,7 +118,7 @@ function darkModeProperties() {
   root.setProperty("--lm-text-alt", "white");
   root.setProperty("--lm-shadow-xl", "rgba(70,88,109,0.15)");
   modetext.innerText = "LIGHT";
-  modeicon.src = "./assets/images/sun-icon.svg";
+  modeicon.src = "sun-icon.svg";
   root.setProperty("--lm-icon-bg", "brightness(1000%)");
   darkMode = true;
   console.log("darkmode changed to " + darkMode);
@@ -136,7 +136,7 @@ function lightModeProperties() {
   root.setProperty("--lm-text-alt", "#2B3442");
   root.setProperty("--lm-shadow-xl", "rgba(70, 88, 109, 0.25)");
   modetext.innerText = "DARK";
-  modeicon.src = "./assets/images/moon-icon.svg";
+  modeicon.src = "moon-icon.svg";
   root.setProperty("--lm-icon-bg", "brightness(100%)");
   darkMode = false;
   console.log("darkmode changed to " + darkMode);
@@ -153,8 +153,6 @@ function init() {
   //darMode = false -> light mode enable karna h 
   darkMode = false;
 
-  //HW
-// const prefersDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
 
   const value = localStorage.getItem("dark-mode");
 
@@ -173,7 +171,7 @@ function init() {
   }
 
 
-  //by default, pranaygupta ki info show krre h UI pr
+  //by default,creator of this Project 'Shravan Thakare' show karna hai
   getUserData(url + "ShravanThakare");
 }
 
